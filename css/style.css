@@ -1,0 +1,165 @@
+.account-setup
+{
+}
+.popup-showroom
+{
+    width:50%;
+    border:1px solid #ccc;
+    margin: 0 auto;
+}
+.setup-content
+{
+    background:#d2232a;
+
+}
+.setup-content li {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px;
+}
+.setup-content a {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 5px;
+    text-decoration: none;
+
+}
+.setup-content ul {
+    margin: 0;
+    padding: 0;
+}
+.current {
+    background: #231f20 none repeat scroll 0 0;
+}
+
+.account-setup > a {
+    background: #231f20 none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #fff;
+    float: right;
+    font-size: 14px;
+    padding: 10px;
+    text-decoration: none;
+}
+.account-setup
+{
+    color:#fff;
+    padding: 15px 0px;
+    display:inline-block;
+    height:100px;
+    background:#d2232a;
+    width:100%;
+}
+.account-setup p {
+    display: inline;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: 20px;
+}
+.new-showroom {
+
+}
+.myButton {
+    background: #d2232a none repeat scroll 0 0;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-family: Arial;
+    font-size: 18px;
+    margin: 0 auto 20px;
+    min-width: 260px;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+    width: 280px;
+}
+.myButton:hover {
+    background: #231f20 none repeat scroll 0 0;
+    border-color: #231f20;
+}
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+.next
+{
+    margin-left:60%;
+}
+.next input {
+    background: #cbccce none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    width: 120px;
+}
+.nx-account-setup p
+{
+    text-align:center;
+}
+.popup-line {
+    background: #d2232a none repeat scroll 0 0;
+    height: 20px;
+    width: 100%;
+}
+input[type=text] {
+    color: #000;
+    font-size: 14px;
+    padding: 8px;
+    width: 280px;
+}
+
+select {
+    color: #000;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.field-cell,.field-email{
+    display: none;
+}
+
+.red-link{
+    color:red;
+}
+
+.veh-container{
+    width:140px;
+    float:left;
+
+}
+
+/* Common styles */
+.nx-account-setup, .nx-vehicles, .nx-address {
+    margin: 40px;
+}
+
+/*nx-address container*/
+.nx-address p{
+    text-align:center;
+}
+.nx-address{
+    display: none;
+}
+
+
+/*nx-vehicles container*/
+.nx-vehicles{
+    display: none;
+}
+
+/*media queries*/
+@media (max-width: 760px){
+    .popup-showroom{
+        width:100%;
+    }
+}
+
+.nx-clear{
+    clear:both;
+}
