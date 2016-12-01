@@ -35,19 +35,14 @@
                     <div class="nx-divTableCell">&nbsp;</div>
                     <div class="nx-divTableCell"><input type="text" placeholder="Last Name"/></div>
                 </div>
-            </div>
-        </div>
-
-        <div class="nx-divTable" style="width:100%">
-            <div class="nx-divCaption">
-                Creating Account with:
-            </div>
-            <div class="nx-divTableBody">
+                <div class="nx-divTableHeading">
+                    Creating Account with:
+                </div>
                 <div class="nx-divTableRow">
                     <div class="nx-divTableCell">&nbsp;</div>
                     <div class="nx-divTableCell"><a class="myButton btncell" href="javascript:;">Cell Phone Number</a></div>
                 </div>
-                <div class="nx-divTableRow">
+                <div class="field-cell">
                     <div class="nx-divTableCell">Ok to Text Coupons? <input type="checkbox" name="cell-coupons" checked/></div>
                     <div class="nx-divTableCell"><input type="text" name="ycell" value=""/></div>
                 </div>
@@ -55,7 +50,7 @@
                     <div class="nx-divTableCell">&nbsp;</div>
                     <div class="nx-divTableCell"><a class="myButton btnemail" href="javascript:;">Email Address</a></div>
                 </div>
-                <div class="nx-divTableRow">
+                <div class="field-email">
                     <div class="nx-divTableCell">Ok to Text Coupons? <input type="checkbox" name="email-coupons" checked/></div>
                     <div class="nx-divTableCell"><input type="text" name="yemail" value=""/></div>
                 </div>

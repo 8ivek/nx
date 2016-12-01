@@ -3,7 +3,7 @@
 }
 .popup-showroom
 {
-    width:50%;
+    width:600px;
     border:1px solid #ccc;
     margin: 0 auto;
 }
@@ -69,7 +69,7 @@
     display: block;
     font-family: Arial;
     font-size: 18px;
-    margin: 0 auto 20px;
+    /*margin: 0 auto 20px;*/
     min-width: 260px;
     padding: 12px 0;
     text-align: center;
