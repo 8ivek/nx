@@ -39,6 +39,7 @@
     font-size: 14px;
     padding: 10px;
     text-decoration: none;
+    margin-right:5px;
 }
 .account-setup {
     color:#fff;
@@ -127,11 +128,12 @@ input[type=text] {
     width: 280px;
 }
 
-select {
+.nx-address select {
     color: #000;
     font-size: 14px;
     padding: 3px;
-    margin: 0px 0px 0px 10px
+    margin: 0px 0px 0px 10px;
+    width:30%;
 }
 
 .field-cell div,.field-email div{
@@ -162,7 +164,7 @@ select {
 }
 
 .nx-address .city{
-    width:140px;
+    width: 65%;
 }
 
 /*nx-vehicles container*/
@@ -212,5 +214,9 @@ select {
 /*end flex*/
 
 div.nx-address .zipcode{
-    width:80px;
+    width:30%;
+}
+
+div.nx-address .skipaddress{
+    padding: 0px 15px;
 }

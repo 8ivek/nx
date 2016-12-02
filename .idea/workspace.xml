@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="573d3fe1-39fd-4d94-8f45-9c0444925e8e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+            <state relative-caret-position="954">
+              <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -60,7 +59,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>account-setup</find>
       <find>account-info</find>
       <find>nx-address</find>
       <find>nx-account-setup</find>
@@ -79,7 +77,10 @@
       <find>flex</find>
       <find>account</find>
       <find>.nx-row .nx-col1</find>
+      <find>city</find>
+      <find>zip</find>
       <find>select</find>
+      <find>account-setup</find>
     </findStrings>
     <replaceStrings>
       <replace>nx-account-setup</replace>
@@ -266,12 +267,12 @@
       <workItem from="1480555581832" duration="3184000" />
       <workItem from="1480561876595" duration="1670000" />
       <workItem from="1480568719286" duration="3306000" />
-      <workItem from="1480634714710" duration="11372000" />
+      <workItem from="1480634714710" duration="11879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48852000" />
+    <option name="totallyTimeSpent" value="49359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2116" extended-state="6" />
@@ -413,8 +414,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+        <state relative-caret-position="954">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
           <folding />
         </state>
       </provider>
