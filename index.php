@@ -1,6 +1,5 @@
 <link rel="stylesheet" type="text/css" href="css/style.css" />
-<script src="js/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-        crossorigin="anonymous"></script>
+<script src="js/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="js/scripts.js" type="text/javascript"></script>
 
 <div class="popup-showroom">
@@ -103,7 +102,7 @@
 
     <div class="nx-vehicles">
 		<div class="veh-sroom">
-       <b> Vehicles In Showroom:</b> &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="notifyme"/><label for="notifyme">Notify me when one of my
+       <b> Vehicles In Showroom:</b> &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="notifyme" id="notifyme" /><label for="notifyme">Notify me when one of my
             vehicles in my showroom gets sold</label>
 			</div>
         <p>

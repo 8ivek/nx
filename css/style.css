@@ -214,25 +214,6 @@ input[type=text] {
 /*.clearfix { display: block; }*/
 /* close commented backslash hack */
 
-/*Flex*/
-/*
-.flex {
-    width: 460px;
-    height: 50px;
-    align-items: center;
-    font: 14px Arial;
-
-    display: flex;
-    flex-direction: row;
-}
-
-.flex > div {
-    flex: 1 1 auto;
-    width: 50%;
-    transition: width 0.7s ease-out;
-}*/
-/*end flex*/
-
 div.nx-address .zipcode{
     width:30%;
 }
