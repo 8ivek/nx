@@ -1,5 +1,4 @@
-<link rel="stylesheet" type="text/css" href="css/style.css"/>
-<link rel="stylesheet" type="text/css" href="css/divtable.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
 <script src="js/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
         crossorigin="anonymous"></script>
 <script src="js/scripts.js" type="text/javascript"></script>
@@ -24,71 +23,80 @@
     </div><!--.new-showroom ends-->
 
     <div class="nx-account-setup">
-
-        <div class="nx-divTable" style="width: 100%;">
-            <div class="nx-divTableBody">
-                <div class="nx-divTableRow">
-                    <div class="nx-divTableCell">Account name:</div>
-                    <div class="nx-divTableCell"><input type="text" placeholder="First Name"/></div>
-                </div>
-                <div class="nx-divTableRow">
-                    <div class="nx-divTableCell">&nbsp;</div>
-                    <div class="nx-divTableCell"><input type="text" placeholder="Last Name"/></div>
-                </div>
-                <div class="nx-divTableHeading">
-                    Creating Account with:
-                </div>
-                <div class="nx-divTableRow">
-                    <div class="nx-divTableCell">&nbsp;</div>
-                    <div class="nx-divTableCell"><a class="myButton btncell" href="javascript:;">Cell Phone Number</a></div>
-                </div>
-                <div class="field-cell">
-                    <div class="nx-divTableCell">Ok to Text Coupons? <input type="checkbox" name="cell-coupons" checked/></div>
-                    <div class="nx-divTableCell"><input type="text" name="ycell" value=""/></div>
-                </div>
-                <div class="nx-divTableRow">
-                    <div class="nx-divTableCell">&nbsp;</div>
-                    <div class="nx-divTableCell"><a class="myButton btnemail" href="javascript:;">Email Address</a></div>
-                </div>
-                <div class="field-email">
-                    <div class="nx-divTableCell">Ok to Text Coupons? <input type="checkbox" name="email-coupons" checked/></div>
-                    <div class="nx-divTableCell"><input type="text" name="yemail" value=""/></div>
-                </div>
+        <div>
+            <div class="flex">
+                <div><strong>Account name:</strong></div>
+                <div><input type="text" placeholder="First Name"/></div>
+            </div>
+            <div class="flex">
+                <div>&nbsp;</div>
+                <div><input type="text" placeholder="Last Name"/></div>
+            </div>
+            <div class="flex">
+                <strong>Creating Account with:</strong>
+            </div>
+            <div class="flex">
+                <div>&nbsp;</div>
+                <div><a class="myButton btncell" href="javascript:;">Cell Phone Number</a></div>
+            </div>
+            <div class="flex field-cell">
+                <div><label for="cell-coupons">Ok to Text Coupons?</label> <input type="checkbox" name="cell-coupons" checked /></div>
+                <div><input type="text" name="ycell" value=""/></div>
+            </div>
+            <div class="flex">
+                <div>&nbsp;</div>
+                <div><a class="myButton btnemail" href="javascript:;">Email Address</a></div>
+            </div>
+            <div class="flex field-email">
+                <div><label for="email-coupons">Ok to Text Coupons?</label> <input type="checkbox" name="email-coupons" id="email-coupons" checked /></div>
+                <div><input type="text" name="yemail" value=""/></div>
             </div>
         </div>
 
-        <div class="next">
-            <input type="submit" value="Next" class="nx-next"/>
-        </div><!--.next ends-->
+        <div class="clearfix">
+            <div class="next">
+                <input type="submit" value="Next" class="nx-next"/>
+            </div><!--.next ends-->
+        </div>
     </div><!--.account-info ends-->
 
     <div class="nx-address">
-        Address:
-        <p><input type="text" name="street" placeholder="Number and Street"><br></p>
-        <p><input type="text" name="city" placeholder="City"/>
-            <select name="state">
-                <option value="0">State</option>
-                <option value="AL">Alabama</option>
-                <option value="AK">Alaska</option>
-                <option value="AZ">Arizona</option>
-                <option value="AR">Arkansas</option>
-                <option value="CA">California</option>
-                <option value="CO">Coloroda</option>
-            </select>
-        </p>
-        <p><input type="text" name="zipcode" placeholder="Zipcode"/> <a class="red-link skipaddress"
-                                                                        href="javascript:;">Skip Address</a></p>
+        <div>
+            <div class="flex">
+                <div>Address:</div>
+                <div><input type="text" name="street" placeholder="Number and Street" /></div>
+            </div>
+            <div class="flex">
+                <div></div>
+                <div><input type="text" name="city" placeholder="City" class="city" /><select name="state">
+                        <option value="0">State</option>
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="AR">Arkansas</option>
+                        <option value="CA">California</option>
+                        <option value="CO">Coloroda</option>
+                    </select></div>
+            </div>
+            <div class="flex">
+                <div></div>
+                <div><input type="text" name="zipcode" placeholder="Zipcode" /> &nbsp; <a class="red-link skipaddress" href="javascript:;">Skip Address</a></div>
+            </div>
+            <div class="flex">
+                <div>Military Service?</div>
+                <div><input type="radio" name="military" id="military_yes" value="1" /><label for="military_yes">Yes</label><input type="radio" name="military" id="military_no" value="0" checked /><label for="military_no">No</label></div>
+            </div>
+            <div class="flex">
+                <div>College Graduate?</div>
+                <div><input type="radio" name="collegegrad" id="collegegrad_yes" value="1" checked /><label for="collegegrad_yes">Yes</label><input type="radio" name="collegegrad" id="collegegrad_no" value="0" /> <label for="collegegrad_no">No</label></div>
+            </div>
+        </div>
 
-        <p>Military Service? <input type="checkbox" name="military" id="military" value="1" checked/> <label
-                    for="military">Yes</label> &nbsp; <input type="checkbox" name="military" id="military" value="0"/>
-            <label for="military">No</label></p>
-        <p>College Graduate? <input type="checkbox" name="collegegrad" id="collegegrad" value="1" checked/> <label
-                    for="collegegrad">Yes</label> &nbsp; <input type="checkbox" name="collegegrad" id="collegegrad"
-                                                                value="0"/> <label for="collegegrad">No</label></p>
-
-        <div class="next">
-            <input type="submit" value="Next" class="nx-next2"/>
-        </div><!--.next ends-->
+        <div class="clearfix">
+            <div class="next">
+                <input type="submit" value="Next" class="nx-next2"/>
+            </div><!--.next ends-->
+        </div>
     </div><!--.account-info ends-->
 
     <div class="nx-vehicles">

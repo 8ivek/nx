@@ -1,15 +1,13 @@
 jQuery(function() {
     $( ".btncell" ).click(function() {
         console.log('cell btn clicked');
-        $(".field-cell").addClass("nx-divTableRow"); //.hide(600);
-        $(".field-email").removeClass("nx-divTableRow"); //.show(600);
-        //$(".field-cell").show(600);
-        //1$(".field-email").hide(600);
+        $(".field-cell div").show(600);
+        $(".field-email div").hide(600);
     });
     $( ".btnemail" ).click(function() {
         console.log('email btn clicked');
-        $(".field-cell").removeClass("nx-divTableRow"); //.hide(600);
-        $(".field-email").addClass("nx-divTableRow"); //.show(600);
+        $(".field-cell div").hide(600);
+        $(".field-email div").show(600);
     });
 
     $("#nx-account-setup a").click(function(){
