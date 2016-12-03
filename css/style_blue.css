@@ -1,0 +1,335 @@
+.cf:after{content: ".";display:block;clear:both;visibility: hidden;line-height: 0;height: 0} 
+.cf {display: inline-block}
+html[xmlns] .clearfix{display: block}
+* html .cf{height: 1%}
+/*clearfix ends */
+p{
+	font-family: "Myriad Pro";
+}
+h1,h2,h3{font-family: "Myriad Pro";}
+.account-setup
+{
+}
+.popup-showroom
+{
+    width:600px;
+    border:1px solid #ccc;
+    margin: 0 auto;
+	font-family: "Myriad Pro";
+}
+.setup-content{
+    background:#0c62b2;
+}
+
+.setup-content li {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px;
+}
+.setup-content a {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 5px;
+    text-decoration: none;
+
+}
+.setup-content ul {
+    margin: 0;
+    padding: 0;
+}
+.current {
+    background: #002d6a none repeat scroll 0 0;
+}
+
+.account-setup > a {
+    background: #231f20 none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #fff;
+    float: right;
+    font-size: 14px;
+    padding: 10px;
+    text-decoration: none;
+    margin-right:5px;
+}
+.account-setup {
+    color:#fff;
+    padding: 15px 0px;
+    display:inline-block;
+    height:100px;
+    /*background:#d2232a;*/
+    background: linear-gradient(to bottom,  #08a3e7 0%,#114b9e 100%);
+    width:100%;
+}
+.account-setup p {
+    display: inline;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+
+.nx-row{
+    width:100%;
+    height:40px;
+}
+
+.nx-row .nx-col1{
+    float: left;
+    width: 33%;
+}
+
+.nx-row .nx-col2{
+    float:left;
+}
+
+.new-showroom {
+
+}
+.myButton {
+    background: #08a3e7 none repeat scroll 0 0;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-family: Arial;
+    font-size: 18px;
+    /*margin: 0 auto 20px;*/
+    min-width: 260px;
+    padding: 6px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+    width: 280px;
+}
+.myButton:hover {
+    background: #002d6a none repeat scroll 0 0;
+    border-color: #002d6a;
+}
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+.next {
+    float: right;
+    margin-top: 40px;
+}
+.next input {
+    background: #cbccce none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    width: 120px;
+}
+.nx-account-setup p {
+    text-align:center;
+}
+.popup-line {
+    background: #002d6a none repeat scroll 0 0;
+    height: 15px;
+    width: 100%;
+}
+input[type=text] {
+    color: #000;
+    font-size: 14px;
+    padding: 3px;
+    
+}
+.name
+{
+	width: 280px;
+}
+.street
+{
+	width: 247px;
+}
+
+
+.nx-address select {
+    color: #000;
+    font-size: 14px;
+    padding: 3px;
+    margin: 0px 0px 0px 10px;
+    width:30%;
+}
+
+.field-cell div,.field-email div{
+    display: none;
+}
+
+.red-link{
+    color:#08a3e7;
+	
+}
+
+.veh-container{
+    
+
+
+}
+
+/* Common styles */
+.nx-account-setup, .nx-vehicles, .nx-address {
+    margin: 30px;
+}
+
+/*nx-address container*/
+.nx-address p{
+    text-align:center;
+}
+.nx-address{
+    display: none;
+}
+
+.nx-address .city{
+    width: 65%;
+}
+
+/*nx-vehicles container*/
+.nx-vehicles{
+    display: none;
+}
+
+/*media queries*/
+@media (max-width: 760px){
+    .popup-showroom{
+        width:100%;
+    }
+}
+
+/*Clearfix*/
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+/*.clearfix { display: block; }*/
+/* close commented backslash hack */
+
+div.nx-address .zipcode{
+    width:30%;
+}
+
+div.nx-address .skipaddress{
+    padding: 0px 15px;
+}
+.fullwidth
+{
+	width:100%!important;
+	padding: 4px 0;
+}
+
+.select-vehicles-colone {
+    display: block;
+    float: left;
+    width: 35%;
+}
+.3col 
+{
+	width:100%;
+}
+.vehicle-3col {
+    float: left;
+    width: 30%;
+}
+.veh-mid {
+    background: #f6f6f6 none repeat scroll 0 0;
+    margin: 0 15px;
+    padding: 0 10px;
+}
+.veh-container h3 {
+    color: #002d6a;
+    font-size: 15px;
+    margin: 0;
+	font-family: "Myriad Pro";
+}
+
+.veh-container .veh-details {
+    font-size: 9px;
+    margin: 5px 0;
+    padding: 0;
+}
+.veh-container p {
+    margin: 5px 0;
+	font-size:9px;
+}
+.veh-price
+{
+	font-size:12px;
+}
+.veh-button{
+    background: #08a3e7 none repeat scroll 0 0;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    padding: 4px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.veh-button:active {
+    position: relative;
+    top: 1px;
+}
+.veh-button:hover {
+    background: #002d6a none repeat scroll 0 0;
+    border-color: #002d6a;
+}
+.veh-next.cf {
+    width: 100%;
+}
+.veh-sroom > label {
+    font-size: 12px;
+}
+.imgcontainer
+{
+	padding:0 0.4%;
+}
+.select-vehicles-collast select {
+    box-shadow: none;
+    float: right;
+    margin-bottom: 12px;
+    padding: 4px 6px;
+    width: 25%;
+}
+
+
+.model {
+    margin-top: 2px;
+    padding: 4px 6px;
+    width: 90%;
+}
+.select-vehicles-colone > span {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.select-vehicles-colone span .sb-stock {
+    font-size: 13px;
+    width: 60%;
+	padding:4px 6px;
+	
+}
+.year {
+    float: right;
+    padding: 4px 6px;
+}
+.trimstyle {
+    padding: 4px 6px;
+    width: 100%;
+}
+.veh-span {
+    padding-top: 5px;
+}

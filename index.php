@@ -1,4 +1,5 @@
-<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/style_blue.css" />
+<!--<link rel="stylesheet" type="text/css" href="css/style_red.css" />-->
 <script src="js/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="js/scripts.js" type="text/javascript"></script>
 
@@ -129,7 +130,7 @@
 		</div><!--.select-vehicles-colone ends-->
 		<div class="select-vehicles-colone">
 		<span>
-		<input class="sb-stock" type="text" value="Search by Stock#"/>
+		<input class="sb-stock" type="text" placeholder="Search by Stock#" value="" />
             <select class="year" name="year">
                 <option value="2016">2016</option>
                 <option value="2015">2015</option>
